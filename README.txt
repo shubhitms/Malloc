@@ -1,19 +1,21 @@
 #####################################################################
 # CS:APP Malloc Lab
-# Handout files for students
 ######################################################################
 
 ***********
 Main Files:
 ***********
 
+mm.c
+	Bulk of the code for the malloc implementation. 
+
 mdriver
-        Once you've run make, run ./mdriver to test your solution.
+        After running make, run ./mdriver to test the implementation.
 
 traces/
 	Directory that contains the trace files that the driver uses
-	to test your solution. Files orners.rep, short2.rep, and malloc.rep
-	are tiny trace files that you can use for debugging correctness.
+	to test the implementation. Files orners.rep, short2.rep, and malloc.rep
+	are tiny trace files that are used for debugging correctness.
 
 **********************************
 Other support files for the driver
